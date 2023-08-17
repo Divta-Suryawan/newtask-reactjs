@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 105px;
+  height: 105px;
+}
+
+.squere {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  background-color: white;
+  font-size: medium;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px blue;
+}
+.status {
+  margin-bottom: 10px;
+}
